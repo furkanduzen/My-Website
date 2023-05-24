@@ -1,0 +1,33 @@
+
+
+h1:hover{
+  text-shadow: red -3px 0, cyan 3px 0;
+}
+*{
+  background-color: #8B6B68;
+  text-align:center;
+}
+.font{
+  font-family: 'Righteous', cursive;
+}
+
+h1{
+  border-style:double;
+  border-width: 5px;
+  background:rgb(244,244,244);
+  border-color: rgb(40,59,81);
+  width: 1000px;
+  margin:0 auto 0 auto;
+  display:table;
+  font-family: 'Righteous', cursive;
+
+}
+#cv{
+  width:1000px;
+  height: auto;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+
